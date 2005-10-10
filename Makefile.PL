@@ -10,8 +10,7 @@ WriteMakefile(
     ABSTRACT     => 'A Simple URL catcher for Bot::BasciBot::Pluggable',
     PREREQ_PM    => {
                      'Test::Simple' => 0.44,
-                     'Regexp::Common' => 2.120,  
-                     'Net::Delicious' => 0.92,
-                     'Bot::BasicBot::Pluggable::Module' => 0.02,
+					 'Net::Delicious' => 0.92,
+					 'Regexp::Common' => 2.120,
                     },
 );
